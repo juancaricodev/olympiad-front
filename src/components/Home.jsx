@@ -1,9 +1,12 @@
 import React from 'react'
 
+import Logo from '../assets/olympiad-svg.svg'
+import '../styles/Home.css'
+
 const Home = () => {
   return (
-    <div>
-      <img src='../assets/olympiad-svg.svg' alt='olympiad logo' />
+    <div className='Home'>
+      <Logo className='Home__logo' />
     </div>
   )
 }
